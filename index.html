@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+
+<body>
+
+
+<div class="container">
+<h1>Fotbollsquiz</h1>
+
+<form id = "quiz" name= "quiz">
+
+<div class="fraga">
+<p>Vilket lag är det här?</p>
+<img class="bild1" src="image/bild1.jpg"><br> <br>
+<input id="textbox" type="text" name="question1" placeholder="Lagnamn (små bokstäver)">
+<br><br>
+</div>
+<br>
+
+<div class="fraga">
+<p>Vad heter denna arenan?</p>
+<img class="bild2" src="image/bild2.jpg"> <br> <br>
+<input type="radio" id ="mc" name="question2" value="old trafford"> Old Trafford<br>
+<input type="radio" id ="mc" name="question2" value="king power"> King Power<br>
+<input type="radio" id ="mc" name="question2" value="stamford bridge"> Stamford Bridge<br>
+<input type="radio" id ="mc" name="question2" value="emirates stadium"> Emirates Stadium<br>
+<br>
+</div>
+<br>
+
+<div class="fraga">
+<p>Hur många lag är med i Englands högsta liga?</p>
+<input type="radio" id ="mc" name="question3" value="18"> 18<br>
+<input type="radio" id ="mc" name="question3" value="22"> 22<br>
+<input type="radio" id ="mc" name="question3" value="24"> 24<br>
+<input type="radio" id ="mc" name="question3" value="20"> 20<br>
+<br>
+</div>
+<br>
+
+<div class="fraga">
+<p>Hur många byten har varje lag per match?</p>
+<input id="textbox" type="text" name="question4" placeholder="antal byten (siffra)">
+<br><br>
+</div>
+<br>
+
+<div class="fraga">
+<p>Hur många domare består ett domarteam av?</p>
+<img class="bild3"src="image/bild3.jpg"> <br> <br>
+<input id="textbox" type="text" name="question5" placeholder="antal domare (siffra)">
+<br><br>
+</div>
+<br>
+
+<div class="fraga">
+<p>Hur många Champions Leaugetitlar har Tottenham?</p>
+<input type="radio" id ="mc" name="question6" value="0"> 0<br>
+<input type="radio" id ="mc" name="question6" value="2"> 2<br>
+<input type="radio" id ="mc" name="question6" value="3"> 3<br>
+<input type="radio" id ="mc" name="question6" value="8"> 8<br>
+</div>
+<br>
+
+<div class="fraga">
+<p>Hur många ligatitlar har Manchester United?</p>
+<input type="radio" id ="mc" name="question7" value="10"> 10<br>
+<input type="radio" id ="mc" name="question7" value="15"> 15<br>
+<input type="radio" id ="mc" name="question7" value="20"> 20<br>
+<input type="radio" id ="mc" name="question7" value="21"> 21<br>
+</div>
+<br>
+
+<div class="fraga">
+<p>Vad har Old Trafford för kapacitet?</p>
+<input type="radio" id ="mc" name="question8" value="75000"> 75000<br>
+<input type="radio" id ="mc" name="question8" value="75501"> 75501<br>
+<input type="radio" id ="mc" name="question8" value="75800"> 75800<br>
+<input type="radio" id ="mc" name="question8" value="75811"> 75811<br>
+</div>
+<br>
+
+<div class="fraga">
+<p>Hur Förkortas Manchester United Football Club?</p>
+<input id="textbox" type="text" name="question9" placeholder="Förkortning (Stora bokstäver)">
+<br><br>
+</div>
+<br>
+
+<div class="fraga">
+<p>Vilket lag vann ligan 2017/2018?</p>
+<input id="textbox" type="text" name="question10" placeholder="Lagnamn (små bokstäver)">
+<br><br>
+</div>
+<br>
+
+<input id="button" type="button" value="Se ditt resultat!" onclick="check();"> 
+</form>
+
+<br>
+<div id="after_submit">
+<p id="number_correct">Klar, bra jobbat!</p>
+</div>
+
+</div>
+
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
